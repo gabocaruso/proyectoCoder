@@ -1,0 +1,15 @@
+Paleta:
+
+#6da3cd - Air superiority blue
+
+#1c2120 - Black (logo)
+
+#57728f - Payne's Gray
+
+#67443b - Rose Ebony
+
+#3f363b - Jet
+
+#16273b - Prussian Blue
+
+#2b3b4d - Charcoal

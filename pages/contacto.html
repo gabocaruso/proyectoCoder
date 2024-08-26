@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- CSS Normalize -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../styles.css">
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+    <title>Contacto | La Ventana</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedorLogo">
+            <a href="../index.html"><img class="headerLogo" src="../images/ventanaLogo.jpg"
+                    alt="Logo de Estudios La Ventana" /></a>
+            <div class="contenedorTexto">
+                <h1>Estudios La Ventana</h1>
+                <p>Desde 1997</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="header_navLink" href="../index.html">Inicio</a></li>
+                <li><a class="header_navLink" href="./historia.html">Historia</a></li>
+                <li><a class="header_navLink" href="./estudios.html">Estudios</a></li>
+                <li><a class="header_navLink" href="./albumes.html">Álbumes</a></li>
+                <li><a class="header_navLink" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="mainContacto">
+        <h2>Contacto</h2>
+        <section class="section1">
+            <article class="formContacto">
+                <form action="" method="">
+                    <fieldset>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="apellido">Apellido: </label>
+                        <input type="text" name="apellido" id="apellido" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="email" id="email" required>
+                    </fieldset>
+                    <fieldset>
+                        <label for="comentario">Déjanos tu comentario: </label>
+                        <textarea name="comentario" id="comentario" required rows="10" cols="50"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <input type="checkbox" name="acceso_novedades" id="newsletter" value="si">
+                        <label for="newsletter">Suscribete A Nuestro Newsletter</label>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+            <article class="contactoIframe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.454002386676!2d-58.4515826!3d-34.607613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca688994eb61%3A0xd055df0a7dafa86e!2sParque%20Centenario!5e0!3m2!1ses-419!2sar!4v1720152964162!5m2!1ses-419!2sar"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </article>
+        </section>
+        <section class="section2">
+            <figure>
+                <img src="../images/contactoLogos/addressLogo.png" alt="Dirección del estudio">
+                <figcaption>Av. Lorem 123</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/contactoLogos/scheduleLogo.png" alt="Horario de trabajo">
+                <figcaption>De 09hs a 17hs</figcaption>
+            </figure>
+            <figure>
+                <img src="../images/contactoLogos/phoneLogo.png" alt="Teléfono del estudio">
+                <figcaption>+54 9 11 1234 4567</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a class="footerLinks" href="https://www.facebook.com/" target="_blank"><img class="footerLogo"
+                    src="../images/footerLogos/facebookLogo.png" alt="Cuenta de Facebook Del estudio"></a>
+            <a class="footerLinks" href="https://www.instagram.com/" target="_blank"><img class="footerLogo"
+                    src="../images/footerLogos/instaLogo.png" alt="Cuenta de Instagram Del estudio"></a>
+            <a class="footerLinks" href="https://www.youtube.com/" target="_blank"><img class="footerLogo"
+                    src="../images/footerLogos/youtubeLogo.png" alt="Cuenta de Youtube del estudio"></a>
+            <a class="footerLinks" href="https://www.x.com/" target="_blank"><img class="footerLogo"
+                    src="../images/footerLogos/twitterLogo.png" alt="Cuenta de Twitter del estudio"></a>
+        </nav>
+        <p>Copyright &copy; 2024 | La Ventana</p>
+    </footer>
+</body>
+
+</html>

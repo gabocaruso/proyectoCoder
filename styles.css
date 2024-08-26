@@ -1,0 +1,208 @@
+/* Estilos Generales */
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/microphone_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Noto Sans", "Roboto", sans-serif;
+}
+
+
+/* Estilos header */
+.customNavbar {
+    background: #1c2120e7;
+    border-bottom: 1px solid #67443b;
+}
+
+.imgHeader {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.imgHeader:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s;
+}
+
+.textoHeader {
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    padding-left: 1rem;
+    border-left: 3px solid #67443b;
+    font-family: "Noto Sans", "Roboto", sans-serif;
+    padding-top: 0.7rem;
+}
+
+.tituloHeader {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eee3dc;
+}
+
+.pHeader {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #eee3dc;
+}
+
+.customNavlink {
+    color: #eee3dc;
+    border-left: 1px solid #67443b;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.customNavlink:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s;
+    color: #eee3dc;
+    background-color: #9b5442b0;
+}
+
+#activeLink-index,
+#activeLink-historia,
+#activeLink-estudios,
+#activeLink-albumes,
+#activeLink-contacto {
+    color: #9b5442b0;
+}
+
+.customToggler {
+    background-color: #eee3dccc;
+    ;
+}
+
+@media only screen and (min-width: 768px) {
+    .customNavlink:hover {
+        background-color: #0000;
+        border-bottom: 0.5px solid #965a4b;
+    }
+}
+
+
+/* Estilos footer */
+.customFooter {
+    background: #1c2120e7;
+    border-top: 1px solid #67443b;
+}
+
+.imgFooter {
+    height: 2.5rem;
+    width: 2.5rem;
+    transition: transform 0.2s;
+}
+
+.imgFooter:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s;
+    border-bottom: 0.5px solid #eee3dc;
+}
+
+.copyFooter {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #eee3dc;
+}
+
+@media only screen and (min-width: 768px) {
+    .imgFooter {
+        height: 2.8rem;
+        width: 2.8rem;
+    }
+
+    .copyFooter {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+}
+
+
+/* Estilos Index */
+.customMain-index {
+    background-color: #1c2120b2;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+
+.textoIndex h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eee3dc;
+}
+
+.textoIndex h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #eee3dc;
+}
+
+.textoIndex p {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #eee3dc;
+    border-top: 1px solid #965a4b;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .customMain-index {
+        width: 70%;
+        padding: 2rem 0;
+    }
+
+    .textoIndex h2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .customMain-index {
+        width: 60%;
+    }
+
+    .textoIndex h2 {
+        font-size: 3.5rem;
+    }
+
+    .textoIndex h3 {
+        font-size: 1.5rem;
+    }
+
+    .textoIndex p {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .customMain-index {
+        width: 50%;
+        padding: 2rem 6rem;
+    }
+
+    .textoIndex h2 {
+        font-size: 4rem;
+    }
+
+    .textoIndex h3 {
+        font-size: 2rem;
+    }
+
+    .textoIndex p {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+/* Estilos Historia */
