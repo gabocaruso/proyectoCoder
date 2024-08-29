@@ -206,3 +206,38 @@ body {
 
 
 /* Estilos Historia */
+
+.mainHistoria {
+    padding-top: 6rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.sectionHistoria {
+    background-color: #1c2120b2;
+    border-radius: 5px;
+}
+
+.mainHistoria h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #c46851;
+}
+
+.sectionHistoria h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eee3dc;
+}
+
+.sectionHistoria p {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #eee3dc;
+    margin-bottom: 0.3rem;
+}
+
+.sectionHistoria .bordeParrafo {
+    border-top: 1px solid #965a4b;
+}
