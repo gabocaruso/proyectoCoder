@@ -114,8 +114,8 @@ body {
 
 @media only screen and (min-width: 768px) {
     .imgFooter {
-        height: 2.8rem;
-        width: 2.8rem;
+        height: 2.5rem;
+        width: 2.5rem;
     }
 
     .copyFooter {
@@ -137,12 +137,14 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     color: #eee3dc;
+    font-family: "Noto Sans", "Roboto", sans-serif;
 }
 
 .textoIndex h3 {
     font-size: 1rem;
     font-weight: 300;
     color: #eee3dc;
+    font-family: "Noto Sans", "Roboto", sans-serif;
 }
 
 .textoIndex p {
@@ -232,11 +234,25 @@ body {
 
 .sectionHistoria p {
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 300;
     color: #eee3dc;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
 }
 
 .sectionHistoria .bordeParrafo {
     border-top: 1px solid #965a4b;
+}
+
+@media only screen and (min-width: 768px) {
+    .mainHistoria h2 {
+        font-size: 2rem;
+    }
+
+    .sectionHistoria h3 {
+        font-size: 1.8rem;
+    }
+
+    .sectionHistoria p {
+        font-size: 1.3rem;
+    }
 }
