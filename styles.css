@@ -1,7 +1,7 @@
 /* Estilos Generales */
 body {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url(./images/microphone_bg.png);
     background-size: cover;
     background-position: center;
@@ -96,7 +96,6 @@ body {
 .customFooter {
     background: #1c2120e7;
     border-top: 1px solid #67443b;
-    width: 100%;
 }
 
 .imgFooter {
@@ -264,7 +263,7 @@ body {
     }
 
     .container-infoHistoria p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .containerCarousel {
@@ -273,17 +272,14 @@ body {
         justify-content: center;
     }
 
-    .borde_parrafoHistoria {
-        border-top: unset;
-    }
-
     .container_parrafoHistoria {
-        border-left: 1px solid #67443b;
-        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
 
     .container-infoHistoria {
         margin: 1rem;
@@ -309,6 +305,15 @@ body {
     .container-infoHistoria img {
         height: 25rem;
         width: 40rem;
+    }
+
+    .borde_parrafoHistoria {
+        border-top: unset;
+    }
+
+    .container_parrafoHistoria {
+        border-left: 1px solid #67443b;
+        margin-bottom: 1rem;
     }
 
 }
