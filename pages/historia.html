@@ -12,7 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="../images/favicon/favicon.ico">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -23,99 +23,121 @@
 <body class="d-flex flex-column justify-content-between">
 
     <header>
-        <nav class="customNavbar navbar fixed-top navbar-expand-md">
-            <section class="container-fluid mx-0">
-                <article class="d-flex flex-row">
-                    <a class="navbar-brand me-0" href="../index.html"><img class="imgHeader img-fluid"
-                            src="../images/ventanaLogo.jpg" alt="Logo de Estudios La Ventana"></a>
-                    <div class="textoHeader">
-                        <h1 class="tituloHeader p-0 mb-0">La Ventana</h1>
-                        <p class="pHeader p-0 mb-0">Desde 1997</p>
-                    </div>
-                </article>
-                <button class="customToggler navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <article class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="d-md-none navbar-nav me-auto mb-0">
-                        <li class="nav-item">
-                            <a class="customNavlink nav-link mt-4 mb-1 mx-2 py-0 ps-1" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="activeLink-historia" class="customNavlink nav-link active my-1 mx-2 py-0 ps-1"
-                                aria-current="page" href="./historia.html">Historia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="./estudios.html">Estudios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="./albumes.html">Albumes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="./contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </article>
-                <article class="d-none d-md-inline-block">
-                    <ul class="navbar-nav me-auto mb-0">
-                        <li class="nav-item">
-                            <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="activeLink-historia" class="customNavlink nav-link active my-1 mx-2 py-0 ps-1"
-                                aria-current="page" href="./historia.html">Historia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" aria-current="page"
-                                href="./estudios.html">Estudios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="./albumes.html">Albumes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="./contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </article>
-            </section>
-        </nav>
+        <section class="header">
+            <nav class="customNavbar navbar fixed-top navbar-expand-md">
+                <section class="container-fluid mx-0">
+                    <article class="d-flex flex-row">
+                        <a class="navbar-brand me-0" href="../index.html"><img class="imgHeader img-fluid"
+                                src="../images/ventanaLogo.jpg" alt="Logo de Estudios La Ventana"></a>
+                        <div class="textoHeader">
+                            <h1 class="tituloHeader p-0 mb-0">La Ventana</h1>
+                            <p class="pHeader p-0 mb-0">Desde 1997</p>
+                        </div>
+                    </article>
+                    <button class="customToggler navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <article class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="d-md-none navbar-nav me-auto mb-0">
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link mt-4 mb-1 mx-2 py-0 ps-1"
+                                    href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="activeLink-historia" class="customNavlink nav-link active my-1 mx-2 py-0 ps-1"
+                                    aria-current="page" href="./historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1"
+                                    href="./estudios.html">Estudios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="./albumes.html">Albumes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1"
+                                    href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="d-none d-md-inline-block">
+                        <ul class="navbar-nav me-auto mb-0">
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="activeLink-historia" class="customNavlink nav-link active my-1 mx-2 py-0 ps-1"
+                                    aria-current="page" href="./historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" aria-current="page"
+                                    href="./estudios.html">Estudios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="./albumes.html">Albumes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1"
+                                    href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+            </nav>
+        </section>
     </header>
 
-    <main class="mainHistoria d-flex flex-column align-items-center justify-content-center mb-3">
-        <h2 class="text-center">Nuestra Historia</h2>
-        <section class="sectionHistoria container mt-2 mb-3">
-            <article class="row mx-1">
-                <div class="col-12">
-                    <h3 class="text-center pt-3">¿Quienes Somos?</h3>
-                    <div id="carousel1" class="carousel slide my-3">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../images/fotosHistoria/records.jpg" class="fotosHistoria d-block img-fluid"
-                                    alt="Grabaciones hechas en Estudio La Ventana">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/fotosHistoria/controlRoom.jpg"
-                                    class="fotosHistoria d-block img-fluid" alt="Control Room del Estudio A">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/fotosHistoria/piano2.jpg" class="fotosHistoria d-block img-fluid"
-                                    alt="Piano Yamaha">
-                            </div>
+    <main>
+        <section class="mainHistoria container-fluid d-flex flex-column align-items-center my-2">
+            <h2 class="mt-2 text-center">Nuestra Historia</h2>
+            <section class="container-infoHistoria sectionQuienes row">
+                <article class="col-12 my-3">
+                    <h3 class="text-center mb-0">¿Quienes somos?</h3>
+                </article>
+                <article class="col-12">
+                    <div id="carouselHistoria1" class="carousel slide">
+                        <div class="carousel-indicators mb-0">
+                            <button type="button" data-bs-target="#carouselHistoria1" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Imágen 1"></button>
+                            <button type="button" data-bs-target="#carouselHistoria1" data-bs-slide-to="1"
+                                aria-label="Imágen 2"></button>
+                            <button type="button" data-bs-target="#carouselHistoria1" data-bs-slide-to="2"
+                                aria-label="Imágen 3"></button>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                        <div class="carousel-inner">
+                            <figure class="figure carousel-item active">
+                                <img src="../images/fotosHistoria/laVentana.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto"
+                                    alt="Logo de Estudio La Ventana">
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <img src="../images/fotosHistoria/records.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto"
+                                    alt="Grabaciones hechas en Estudios La Ventana">
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <img src="../images/fotosHistoria/controlRoom3.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto"
+                                    alt="Control Room del Estudio A">
+                            </figure>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHistoria1"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselHistoria1"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Siguiente</span>
                         </button>
                     </div>
-                    <p class="bordeParrafo pt-2 text-left">Fundado a principios de 1997, Estudios de Grabación La
+                </article>
+                <article class="col-12">
+                    <p class="bordeParrafo text-left mt-1 pt-2">Fundado a principios de 1997, Estudios de
+                        Grabación La
                         Ventana está
                         empapado
                         de un legendario
@@ -131,51 +153,67 @@
                         ser
                         la
                         casa de muchos proyectos musicales importantes en la historia de nuestro país.</p>
-                </div>
-            </article>
-            <article class="row mx-1 my-4">
-                <div class="col-12">
-                    <h3 class="text-center mt-2">En la vanguardia del Audio</h3>
-                    <div id="carousel2" class="carousel slide my-3">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="../images/fotosHistoria/productionSuite.jpg"
-                                    class="fotosHistoria d-block img-fluid" alt="Production Suite">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/fotosHistoria/controlRoom2.jpg"
-                                    class="fotosHistoria d-block img-fluid" alt="Control Room del Estudio B">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="../images/fotosHistoria/piano.jpeg" class="fotosHistoria d-block img-fluid"
-                                    alt="Piano Yamaha del Estudio A">
-                            </div>
+                </article>
+            </section>
+            <section class="container-infoHistoria sectionVanguardia row">
+                <article class="col-12 my-3">
+                    <h3 class="text-center mb-0">En la vanguardia del Audio</h3>
+                </article>
+                <article class="col-12">
+                    <div id="carouselHistoria2" class="carousel slide">
+                        <div class="carousel-indicators mb-0">
+                            <button type="button" data-bs-target="#carouselHistoria2" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Imágen 1"></button>
+                            <button type="button" data-bs-target="#carouselHistoria2" data-bs-slide-to="1"
+                                aria-label="Imágen 2"></button>
+                            <button type="button" data-bs-target="#carouselHistoria2" data-bs-slide-to="2"
+                                aria-label="Imágen 3"></button>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
+                        <div class="carousel-inner">
+                            <figure class="figure carousel-item active">
+                                <img src="../images/fotosHistoria/productionSuite.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto"
+                                    alt="Production Suite de Estudios La Ventana">
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <img src="../images/fotosHistoria/controlRoom2.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto"
+                                    alt="Control Room Del Estudio B">
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <img src="../images/fotosHistoria/isoBooth.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto" alt="Iso Booth del Estudio B">
+                            </figure>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHistoria2"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Anterior</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselHistoria2"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Siguiente</span>
                         </button>
                     </div>
-                    <p class="bordeParrafo pt-2 text-left">La Ventana es un oasis de comfort, privacidad y prestigio.
-                    </p>
+                </article>
+                <article class="col-12">
+                    <p class="bordeParrafo text-left mt-1 pt-2">La Ventana es un oasis de comfort, privacidad y
+                        prestigio.</p>
                     <p class="text-left">Artistas,
                         compositores y productores
                         aprecian el ambiente relajado, staff a completa disposición y equipamiento de
-                        audio de alto nivel profesional. </p>
+                        audio de alto nivel profesional.</p>
                     <p class="text-left">Durante 27 años, artistas de alto renombre continúan confiando
                         a
                         Estudios La Ventana
                         sus proyectos más importantes.</p>
-                </div>
-            </article>
+                </article>
+            </section>
+        </section>
         </section>
     </main>
+
 
     <footer>
         <section class="customFooter container-fluid">
