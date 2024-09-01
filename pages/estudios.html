@@ -4,42 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia | La Ventana</title>
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <!-- CSS Normalize -->
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <!-- Estilos -->
-    <link rel="stylesheet" href="../styles.css">
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="../images/favicon/favicon.ico">
-    <title>Estudios | La Ventana</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body>
+<body class="d-flex flex-column justify-content-between">
+
     <header>
-        <div class="contenedorLogo">
-            <a href="../index.html"><img class="headerLogo" src="../images/ventanaLogo.jpg"
-                    alt="Logo de Estudios La Ventana" /></a>
-            <div class="contenedorTexto">
-                <h1>Estudios La Ventana</h1>
-                <p>Desde 1997</p>
-            </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a class="header_navLink" href="../index.html">Inicio</a></li>
-                <li><a class="header_navLink" href="./historia.html">Historia</a></li>
-                <li><a class="header_navLink" href="./estudios.html">Estudios</a></li>
-                <li><a class="header_navLink" href="./albumes.html">Álbumes</a></li>
-                <li><a class="header_navLink" href="./contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <section class="header">
+            <nav class="customNavbar navbar fixed-top navbar-expand-md">
+                <section class="container-fluid mx-0">
+                    <article class="d-flex flex-row">
+                        <a class="navbar-brand me-0" href="../index.html"><img class="imgHeader img-fluid"
+                                src="../images/ventanaLogo.jpg" alt="Logo de Estudios La Ventana"></a>
+                        <div class="textoHeader">
+                            <h1 class="tituloHeader p-0 mb-0">La Ventana</h1>
+                            <p class="pHeader p-0 mb-0">Desde 1997</p>
+                        </div>
+                    </article>
+                    <button class="customToggler navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <article class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="d-md-none navbar-nav me-auto mb-0">
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link mt-4 mb-1 mx-2 py-0 ps-1"
+                                    href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1"
+                                    href="./historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="activeLink-estudios" class="customNavlink nav-link active my-1 mx-2 py-0 ps-1"
+                                    aria-current="page" href="./estudios.html">Estudios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="./albumes.html">Albumes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1"
+                                    href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </article>
+                    <article class="d-none d-md-inline-block">
+                        <ul class="navbar-nav me-auto mb-0">
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1"
+                                    href="./historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="activeLink-estudios" class="customNavlink nav-link active my-1 mx-2 py-0 ps-1"
+                                    aria-current="page" href="./estudios.html">Estudios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1" href="./albumes.html">Albumes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="customNavlink nav-link my-1 mx-2 py-0 ps-1"
+                                    href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </article>
+                </section>
+            </nav>
+        </section>
     </header>
-    <main class="mainEstudios">
+
+    <!-- <main class="mainEstudios">
         <h2>Conoce Nuestros Estudios</h2>
         <section class="flexEstudios">
             <article class="estudioA">
@@ -60,7 +110,7 @@
                         <li>Studio Room de 74 metros cuadrados.</li>
                         <li>Iso Room para piano de cola de 28 metros cuadrados.</li>
                     </ul>
-                    <!-- Falta incluir: Galeria de fotos y equipos de audio -->
+
                 </div>
             </article>
             <article class="estudioB">
@@ -83,23 +133,250 @@
                         <li>Iso Room de 6 metros cuadrados.</li>
                     </ul>
                 </div>
-                <!-- Falta incluir: Galeria de fotos y equipos de audio -->
+
             </article>
         </section>
+    </main> -->
+
+    <main class="container-fluid px-0">
+        <section class="mainEstudios container-fluid d-flex flex-column align-items-center my-2">
+            <h2 class="col-12 mt-2 text-center ps-3">Conoce nuestros estudios</h2>
+            <section class="container-infoEstudios section_estudioA row pb-3">
+                <article class="col-12 my-2">
+                    <h3 class="text-center mb-0">Estudio A</h3>
+                </article>
+                <article class="containerCarousel col-12">
+                    <div id="carousel_estudioA" class="carousel slide">
+                        <div class="carousel-indicators mb-0">
+                            <button type="button" data-bs-target="#carousel_estudioA" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Imágen 1"></button>
+                            <button type="button" data-bs-target="#carousel_estudioA" data-bs-slide-to="1"
+                                aria-label="Imágen 2"></button>
+                            <button type="button" data-bs-target="#carousel_estudioA" data-bs-slide-to="2"
+                                aria-label="Imágen 3"></button>
+                            <button type="button" data-bs-target="#carousel_estudioA" data-bs-slide-to="3"
+                                aria-label="Imágen 4"></button>
+                            <button type="button" data-bs-target="#carousel_estudioA" data-bs-slide-to="4"
+                                aria-label="Imágen 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <figure class="figure carousel-item active">
+                                <img src="../images/fotosEstudios/estudioA/consola_estudioA.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto" alt="Consola del estudio A">
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <img src="../images/fotosEstudios/estudioA/controlRoom_A1.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto"
+                                    alt="Control Room Del Estudio A (Vista Posterior)">
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <img src="../images/fotosEstudios/estudioA/controlRoom_A2.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto"
+                                    alt="Control Room Del Estudio A (Vista Frontal)">
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <img src="../images/fotosEstudios/estudioA/studioRoom_A1.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto"
+                                    alt="Studio Room del Estudio A (Vista Posterior)">
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <img src="../images/fotosEstudios/estudioA/studioRoom_A2.jpg"
+                                    class="d-block figure-img img-fluid rounded mx-auto"
+                                    alt="Studio Room del Estudio A (Vista Frontal)">
+                            </figure>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_estudioA"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel_estudioA"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                </article>
+                <article class="col-12 my-2">
+                    <h4 class="text-center my-2">Detalles Técnicos</h4>
+                </article>
+                <article class="col-12">
+                    <section class="accordion_estudioA accordion accordion-flush" id="accordion1">
+                        <section class="accordion-item">
+                            <h5 class="custom_accordionHeader accordion-header">
+                                <button id="customButton1" class="accordion-button collapsed py-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Acerca
+                                </button>
+                            </h5>
+                            <article id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordion1">
+                                <div class="custom_accordionBody accordion-body">
+                                    <p>El <strong>estudio A</strong> es el más histórico de nuestra
+                                        institución. Ha sido la casa de
+                                        algunos de los discos
+                                        más
+                                        vendidos en Argentina. Este espacio incluye:
+                                    </p>
+                                    <ul class="mb-0 ps-4">
+                                        <li>Control Room de 42 metros cuadrados.</li>
+                                        <li>Consola Análoga Solid State Logic XL9080K.</li>
+                                        <li>Studio Room de 74 metros cuadrados.</li>
+                                        <li>Iso Room para piano de cola de 28 metros cuadrados.</li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="accordion-item">
+                            <h5 class="custom_accordionHeader accordion-header">
+                                <button id="customButton2" class="accordion-button collapsed py-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">Equipamiento</button>
+                            </h5>
+                            <article id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordion1">
+                                <div class="custom_accordionBody accordion-body">
+                                    <h6>&checkmark; Consola</h6>
+                                    <p>Solid State Logic XL9000 K Series c/ 80 Canales</p>
+                                    <h6>&checkmark; Computadora - DAW</h6>
+                                    <p class="mb-1">Apple Mac Pro 2019 12-Core</p>
+                                    <p class="mb-1">Avid HDX c/ 48 canales de HD I/O</p>
+                                    <p>Avid Sync HD</p>
+                                    <h6>&checkmark; Monitores Principales</h6>
+                                    <p class="mb-1">Custom LaVentana HR-1</p>
+                                    <p>LaVentana BBSM-10SWP Subwoofers (4)</p>
+                                    <h6>&checkmark; Monitores Nearfield</h6>
+                                    <p class="mb-1">Yamaha NS-10 c/ Amplificador Bryston 4B-ST</p>
+                                    <p>Genelec 1031A</p>
+                                    <h6>&checkmark; Tamaño del cuarto</h6>
+                                    <p class="mb-1">Control Room 42 metros cuadrados</p>
+                                    <p>Tracking Room 74 metros cuadrados</p>
+                                    <h6>&checkmark; Aislamiento</h6>
+                                    <p class="mb-1">Area de aislamiento standard</p>
+                                    <p>Area de aislamiento con decaimiento variable</p>
+                                    <h6>&checkmark; Equipamiento Externo</h6>
+                                    <h6 class="customH6 ps-2">Dinámicos</h6>
+                                    <ul class="lista_externos mb-1 ps-4">
+                                        <li>DBX 160 (2)</li>
+                                        <li>DBX 162</li>
+                                        <li>Drawmer DS201</li>
+                                        <li>EL Distressor EL8X (2)</li>
+                                        <li>Neve 33609/N</li>
+                                        <li>Retro 176</li>
+                                        <li>SPL Transient Designer 4</li>
+                                        <li>Teletronix LA-2A (2)</li>
+                                        <li>Urei 1176LN (2)</li>
+                                    </ul>
+                                    <h6 class="customH6 ps-2">Equalizadores</h6>
+                                    <ul class="lista_externos mb-1 ps-4">
+                                        <li>GML 8200</li>
+                                        <li>Maag EQ4M</li>
+                                        <li>Pultec EQP-1A3 (2)</li>
+                                        <li>SSL Fusion</li>
+                                        <li>Summit EQP200A</li>
+                                    </ul>
+                                    <h6 class="customH6 ps-2">Reverbs y Efectos</h6>
+                                    <ul class="lista_externos ps-4">
+                                        <li>AMS RMX16 (2)</li>
+                                        <li>Bricasit M7 (2)</li>
+                                        <li>EMT 240 Plate Reverb (A pedido)</li>
+                                        <li>Eventide H3000SE (2)</li>
+                                        <li>Lexicon PCM42</li>
+                                        <li>Roland SDE3000A</li>
+                                        <li>TC Electronics M3000</li>
+                                    </ul>
+                                    <h6>&checkmark; Cues</h6>
+                                    <ul class="lista_externos ps-4">
+                                        <li>2 Cues Stereo amplificadas</li>
+                                        <li>Hear Technologies HearBack Pro System (A pedido)</li>
+                                    </ul>
+                                    <h6>&checkmark; Adicional</h6>
+                                    <ul class="lista_externos ps-4">
+                                        <li>Yamaha CF 9 Foot Concert Grand Piano</li>
+                                    </ul>
+                                    <h6>&checkmark; Electrónica Adicional</h6>
+                                    <ul class="lista_externos ps-4">
+                                        <li>HHB CDR800</li>
+                                        <li>Pantalla Plana TCL</li>
+                                    </ul>
+                                    <h6>&checkmark; Plugins</h6>
+                                    <ul class="lista_externos ps-4">
+                                        <li>Antares Auto-Tune Pro</li>
+                                        <li>Antares Auto-Tune EFX</li>
+                                        <li>Audio Ease Altiverb</li>
+                                        <li>Avid Complete Bundle</li>
+                                        <li>FabFilter Total Bundle</li>
+                                        <li>iZotope Music Production Suite</li>
+                                        <li>Lexicon PCM Native Bundle</li>
+                                        <li>McDSP Classic Pack</li>
+                                        <li>Melodyne Studio</li>
+                                        <li>Metric Halo Channel Strip</li>
+                                        <li>Oeksound Soothe 2</li>
+                                        <li>Output Movement</li>
+                                        <li>Plugin Alliance Mega Bundle</li>
+                                        <li>Serato Pitch N’ Time Pro</li>
+                                        <li>Slate Digital All Access</li>
+                                        <li>Soundtoys</li>
+                                        <li>Source Elements Source-Connect</li>
+                                        <li>Universal Audio UAD</li>
+                                        <li>Valhalla</li>
+                                        <li>Waves Mercury</li>
+                                        <li>XLN RC-20 Retro Color</li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="accordion-item">
+                            <h5 class="custom_accordionHeader accordion-header">
+                                <button id="customButton3" class="accordion-button collapsed py-2" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Diseño de planta
+                                </button>
+                            </h5>
+                            <article id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordion1">
+                                <div class="custom_accordionBody accordion-body">
+                                    <img src="../images/fotosEstudios/estudioA/plantaA.png"
+                                        alt="Diseño de Planta del Estudio A" class="img-fluid">
+                                </div>
+                            </article>
+                        </section>
+                    </section>
+                </article>
+            </section>
+        </section>
     </main>
+
     <footer>
-        <nav>
-            <a class="footerLinks" href="https://www.facebook.com/" target="_blank"><img class="footerLogo"
-                    src="../images/footerLogos/facebookLogo.png" alt="Cuenta de Facebook Del estudio"></a>
-            <a class="footerLinks" href="https://www.instagram.com/" target="_blank"><img class="footerLogo"
-                    src="../images/footerLogos/instaLogo.png" alt="Cuenta de Instagram Del estudio"></a>
-            <a class="footerLinks" href="https://www.youtube.com/" target="_blank"><img class="footerLogo"
-                    src="../images/footerLogos/youtubeLogo.png" alt="Cuenta de Youtube del estudio"></a>
-            <a class="footerLinks" href="https://www.x.com/" target="_blank"><img class="footerLogo"
-                    src="../images/footerLogos/twitterLogo.png" alt="Cuenta de Twitter del estudio"></a>
-        </nav>
-        <p>Copyright &copy; 2024 | La Ventana</p>
+        <section class="customFooter container-fluid">
+            <section class="row py-2">
+                <article class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <nav class="d-flex">
+                        <a href="https://www.facebook.com/" target="_blank"><img class="imgFooter img-fluid mx-2"
+                                src="../images/footerLogos/facebookLogo2.png" alt="Cuenta de Facebook Del estudio"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="imgFooter img-fluid mx-2"
+                                src="../images/footerLogos/instagramLogo2.png"
+                                alt="Cuenta de Instagram Del estudio"></a>
+                        <a href="https://www.x.com/" target="_blank"><img class="imgFooter img-fluid mx-2"
+                                src="../images/footerLogos/twitterLogo2.png" alt="Cuenta de Twitter del estudio"></a>
+                    </nav>
+                </article>
+                <article class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="my-1">
+                        <p class="copyFooter mb-0">Copyright &copy; 2024 | La Ventana</p>
+                    </div>
+                </article>
+            </section>
+        </section>
     </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

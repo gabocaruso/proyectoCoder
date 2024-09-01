@@ -132,7 +132,7 @@ body {
 
 /* Estilos Index */
 .customMain-index {
-    background-color: #1c2120b2;
+    background-color: #1c2120e5;
     border-radius: 5px;
     font-family: "Roboto", sans-serif;
 }
@@ -231,7 +231,7 @@ body {
 }
 
 .container-infoHistoria {
-    background-color: #1c2120cc;
+    background-color: #1c2120e5;
     font-family: "Roboto", sans-serif;
     margin: 0 0.2rem;
 }
@@ -316,4 +316,78 @@ body {
         margin-bottom: 1rem;
     }
 
+}
+
+
+/* Estilos Estudios */
+
+.mainEstudios h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #a7604e;
+    font-family: "Noto Sans", "Roboto", sans-serif;
+}
+
+.section_estudioA {
+    border-radius: 5px 5px 0 0;
+}
+
+.section_estudioB {
+    border-radius: 0 0 5px 5px;
+}
+
+.container-infoEstudios {
+    background-color: #1c2120e5;
+    font-family: "Roboto", sans-serif;
+    margin: 0.2rem;
+}
+
+.container-infoEstudios h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #eee3dc;
+    font-family: "Noto Sans", "Roboto", sans-serif;
+}
+
+.container-infoEstudios h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #a7604e;
+    font-family: "Noto Sans", "Roboto", sans-serif;
+}
+
+#customButton1,
+#customButton2,
+#customButton3 {
+    font-size: 1.2rem;
+    background-color: #eee3dc;
+    border-bottom: 1px solid #67443b;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #a7604e;
+    box-shadow: none;
+}
+
+.custom_accordionBody {
+    background-color: #8b5648;
+    padding: 1rem 0.5rem;
+}
+
+.custom_accordionBody ul,
+.custom_accordionBody p {
+    font-family: "Roboto", sans-serif;
+    color: #eee3dc;
+    font-weight: 300;
+}
+
+.custom_accordionBody h6 {
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.customH6 {
+    font-size: 1rem !important;
 }

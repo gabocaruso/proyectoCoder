@@ -16,12 +16,98 @@ La Ventana es un oasis de comfort, privacidad y prestigio. Artistas, compositore
 - Conoce Nuestros Estudios:
 
  Estudio 'A'
+
+Acerca:
+
 El estudio A es el más histórico de nuestra institución. Ha sido la casa de algunos de los discos más vendidos en Argentina. Este espacio incluye:
 
 Control Room de 42 metros cuadrados
 Consola Análoga Solid State Logic XL9080K
 Studio Room de 74 metros cuadrados
 Iso Room para piano de cola de 28 metros cuadrados
+
+Equipamiento:
+
+Consola
+Solid State Logic XL9000 K Series c/ 80 Canales
+
+Computadora - DAW
+Apple Mac Pro 2019 12-Core, Avid HDX c/ 48 canales de HD I/O, Avid Sync HD
+
+Monitores Principales
+Custom LaVentana HR-1, LaVentana BBSM-10SWP Subwoofers (4)
+
+Monitores Nearfield
+Yamaha NS-10 w/ Amplificador Bryston 4B-ST, Genelec 1031A
+
+Tamaño del cuarto
+Control Room 42 metros cuadrados Tracking Room 74 metros cuadrados
+
+Aislamiento
+Un area de aislamiento standard - Un area de aislamiento con decaimiento variable
+
+Equipamiento Externo
+Dinamicos
+DBX 160 (2)
+DBX 160X (2)
+DBX 162
+Drawmer DS201
+Empirical Labs Distressor EL8X (2)
+Neve 33609/N
+Retro 176
+SPL Transient Designer 4
+Teletronix LA-2A (2)
+Urei 1176LN (2)
+
+Equalizadores
+GML 8200
+Maag EQ4M
+Pultec EQP-1A3 (2)
+SSL Fusion
+Summit EQP200A
+
+Procesadores de efectos y Reverbs
+AMS RMX16 (2)
+Bricasit M7 (2)
+EMT 240 Plate Reverb (available on request)
+Eventide H3000SE (2)
+Lexicon PCM42
+Roland SDE3000A
+TC Electronics M3000
+
+Cues
+2 Cues Stereo amplificadas
+Hear Technologies HearBack Pro System (disponible a pedido)
+
+Adicional
+Yamaha CF 9 Foot Concert Grand Piano
+
+Electrónica Adicional
+HHB CDR800
+TCL Flatscreen
+Plugins
+Antares Auto-Tune Pro
+Antares Auto-Tune 8
+Antares Auto-Tune EFX
+Audio Ease Altiverb
+Avid Complete Bundle
+FabFilter Total Bundle
+iZotope Music Production Suite
+Lexicon PCM Native Bundle
+McDSP Classic Pack
+Melodyne Studio 
+Metric Halo Channel Strip
+Oeksound Soothe 2
+Output Movement
+Plugin Alliance Mega Bundle
+Serato Pitch N’ Time Pro
+Slate Digital All Access
+Soundtoys
+Source Elements Source-Connect
+Universal Audio UAD
+Valhalla
+Waves Mercury
+XLN RC-20 Retro Color
 
 
  Estudio 'B'
