@@ -335,6 +335,8 @@ body {
 
 .section_estudioB {
     border-radius: 0 0 5px 5px;
+    border-top: 1px solid #67443b;
+
 }
 
 .container-infoEstudios {
@@ -361,7 +363,10 @@ body {
 
 #customButton1,
 #customButton2,
-#customButton3 {
+#customButton3,
+#customButton4,
+#customButton5,
+#customButton6 {
     font-size: 1.2rem;
     background-color: #eee3dc;
     border-bottom: 1px solid #67443b;
