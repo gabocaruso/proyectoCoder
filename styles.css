@@ -10,12 +10,6 @@ body {
     font-family: "Noto Sans", "Roboto", sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-    }
-}
-
 /* Estilos header */
 .header {
     height: 75px;
