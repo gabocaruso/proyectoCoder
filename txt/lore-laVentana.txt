@@ -49,7 +49,7 @@ Un area de aislamiento standard - Un area de aislamiento con decaimiento variabl
 Equipamiento Externo
 Dinamicos
 DBX 160 (2)
-DBX 160X (2)
+DBX 160 (2)
 DBX 162
 Drawmer DS201
 Empirical Labs Distressor EL8X (2)
@@ -84,7 +84,8 @@ Yamaha CF 9 Foot Concert Grand Piano
 
 Electrónica Adicional
 HHB CDR800
-TCL Flatscreen
+Pantalla Plana TCL
+
 Plugins
 Antares Auto-Tune Pro
 Antares Auto-Tune 8

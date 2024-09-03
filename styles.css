@@ -10,6 +10,11 @@ body {
     font-family: "Noto Sans", "Roboto", sans-serif;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+}
 
 /* Estilos header */
 .header {
@@ -92,6 +97,7 @@ body {
 }
 
 
+
 /* Estilos footer */
 .customFooter {
     background: #1c2120e7;
@@ -128,6 +134,7 @@ body {
         font-weight: 200;
     }
 }
+
 
 
 /* Estilos Index */
@@ -212,10 +219,11 @@ body {
 }
 
 
+
 /* Estilos Historia */
 
 .mainHistoria h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #a7604e;
@@ -319,10 +327,10 @@ body {
 }
 
 
-/* Estilos Estudios */
 
+/* Estilos Estudios */
 .mainEstudios h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #a7604e;
@@ -331,12 +339,12 @@ body {
 
 .section_estudioA {
     border-radius: 5px 5px 0 0;
+    border: 2px solid #67443b;
 }
 
 .section_estudioB {
     border-radius: 0 0 5px 5px;
-    border-top: 1px solid #67443b;
-
+    border: 2px solid #67443b;
 }
 
 .container-infoEstudios {
@@ -354,7 +362,7 @@ body {
 }
 
 .container-infoEstudios h4 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     text-transform: uppercase;
     color: #a7604e;
@@ -367,11 +375,11 @@ body {
 #customButton4,
 #customButton5,
 #customButton6 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     background-color: #eee3dc;
     border-bottom: 1px solid #67443b;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #a7604e;
     box-shadow: none;
 }
@@ -395,4 +403,77 @@ body {
 
 .customH6 {
     font-size: 1rem !important;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .mainEstudios {
+        padding: 1rem 8rem !important;
+    }
+
+    .mainEstudios h2 {
+        font-size: 1.8rem;
+    }
+
+    .container-infoEstudios h3 {
+        font-size: 1.5rem;
+    }
+
+    #customButton1,
+    #customButton2,
+    #customButton3,
+    #customButton4,
+    #customButton5,
+    #customButton6 {
+        font-size: 1.2rem;
+    }
+
+    .custom_accordionBody h6 {
+        font-size: 1.3rem;
+    }
+
+    .customH6 {
+        font-size: 1.1rem !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .mainEstudios {
+        padding: 1rem 12rem !important;
+    }
+
+    .mainEstudios h2 {
+        font-size: 2.2rem;
+    }
+
+    .container-infoEstudios h4 {
+        font-size: 1.4rem;
+    }
+
+    .custom_accordionBody h6 {
+        font-size: 1.3rem;
+    }
+
+    .custom_accordionBody p,
+    .custom_accordionBody ul {
+        font-size: 1.1rem;
+    }
+
+    .customH6 {
+        font-size: 1.3rem !important;
+    }
+
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .mainEstudios {
+        padding: 1rem 24rem !important;
+    }
+
+    .mainEstudios h2 {
+        font-size: 2.4rem;
+    }
 }
