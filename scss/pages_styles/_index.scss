@@ -1,0 +1,23 @@
+/* Estilos Index */
+.customMain-index {
+    background-color: nth($paleta1, 4);
+    border-radius: 5px;
+    font-family: $font_family2;
+}
+
+.textoIndex {
+    h2 {
+        @include estilosBasicos(2.5rem, uppercase, 700, nth($paleta1, 2));
+        font-family: $font_family1;
+    }
+
+    h3 {
+        @include estilosBasicos(1rem, none, 300, nth($paleta1, 2));
+        font-family: $font_family1;
+    }
+
+    p {
+        @include estilos_parrafo(100, uppercase, nth($paleta1, 2));
+        border-top: 1px solid nth($paleta1, 6);
+    }
+}

@@ -1,0 +1,59 @@
+/* Estilos header */
+.header {
+    @include dimensiones(75px, 100%);
+}
+
+.customNavbar {
+    background: #1c2120e7;
+    border-bottom: 1px solid nth($paleta1, 1);
+}
+
+.imgHeader {
+    @include dimensiones(3rem, 3rem);
+    border-radius: 50%;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: translateY(-2px);
+        transition: transform 0.2s;
+    }
+}
+
+.textoHeader {
+    @include textoHeader(0 1.5rem 0 1rem, 0.7rem 0 0 1rem, 3px solid nth($paleta1, 1));
+    font-family: $font_family1;
+}
+
+.tituloHeader {
+    @include estilosBasicos(1rem, uppercase, 700, nth($paleta1, 2));
+}
+
+.pHeader {
+    @include estilosBasicos(0.8rem, uppercase, 500, nth($paleta1, 2));
+}
+
+.customNavlink {
+    color: nth($paleta1, 2);
+    border-left: 1px solid nth($paleta1, 1);
+    text-transform: uppercase;
+    transition: all 0.3s;
+
+    &:hover {
+        transform: translateY(-2px);
+        transition: transform 0.3s;
+        color: nth($paleta1, 2);
+        background-color: nth($paleta1, 1);
+    }
+}
+
+#activeLink-index,
+#activeLink-historia,
+#activeLink-estudios,
+#activeLink-albumes,
+#activeLink-contacto {
+    color: nth($paleta1, 5);
+}
+
+.customToggler {
+    background-color: nth($paleta1, 2);
+}

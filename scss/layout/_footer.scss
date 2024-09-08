@@ -1,0 +1,20 @@
+/* Estilos footer */
+.customFooter {
+    background: #1c2120e7;
+    border-top: 1px solid nth($paleta1, 1);
+}
+
+.imgFooter {
+    @include dimensiones(2.2rem, 2.2rem);
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: translateY(-2px);
+        transition: transform 0.2s;
+        border-bottom: 0.5px solid #eee3dc;
+    }
+}
+
+.copyFooter {
+    @include estilosBasicos(0.8rem, uppercase, 100, nth($paleta1, 2));
+}

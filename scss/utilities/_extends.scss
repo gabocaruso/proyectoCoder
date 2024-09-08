@@ -1,0 +1,10 @@
+/* Extends */
+%customButton {
+    font-size: 1rem;
+    background-color: #eee3dc;
+    border-bottom: 1px solid #67443b;
+    font-family: $font_family2;
+    font-weight: 300;
+    color: nth($paleta1, 3);
+    box-shadow: none;
+}

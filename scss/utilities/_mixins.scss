@@ -1,0 +1,28 @@
+@mixin dimensiones($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
+
+@mixin estilosBasicos($size, $transform, $weight, $color) {
+    font-size: $size;
+    text-transform: $transform;
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin textoHeader($header_margin, $header_padding, $header_border) {
+    margin: $header_margin;
+    padding: $header_padding;
+    border-left: $header_border;
+}
+
+@mixin estilos_parrafo($p_weight, $p_transform, $p_color) {
+    font-weight: $p_weight;
+    text-transform: $p_transform;
+    color: $p_color;
+}
+
+@mixin border_estudios($estudios_radius, $estudios_border) {
+    border-radius: $estudios_radius;
+    border: $estudios_border;
+}

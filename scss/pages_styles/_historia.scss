@@ -1,0 +1,38 @@
+/* Estilos Historia */
+.mainHistoria {
+    h2 {
+        @include estilosBasicos(1.5rem, uppercase, 700, nth($paleta1, 3));
+        font-family: $font_family1;
+    }
+}
+
+.sectionQuienes {
+    border-radius: 5px 5px 0 0;
+}
+
+.sectionVanguardia {
+    border-radius: 0 0 5px 5px;
+}
+
+.container-infoHistoria {
+    background-color: nth($paleta1, 4);
+    font-family: $font_family2;
+    margin: 0 0.2rem;
+}
+
+.container-infoHistoria {
+    h3 {
+        @include estilosBasicos(1.6rem, none, 500, nth($paleta1, 2));
+        font-family: $font_family1;
+    }
+
+    p {
+        @include estilos_parrafo(300, none, nth($paleta1, 2));
+        font-size: 1.2rem;
+        font-family: $font_family2;
+    }
+}
+
+.borde_parrafoHistoria {
+    border-top: 1px solid #67443b;
+}

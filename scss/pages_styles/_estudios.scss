@@ -1,0 +1,62 @@
+/* Estilos Estudios */
+.mainEstudios {
+    h2 {
+        @include estilosBasicos(1.4rem, uppercase, 700, nth($paleta1, 3));
+        font-family: $font_family1;
+    }
+}
+
+.section_estudioA {
+    @include border_estudios(5px 5px 0 0, 2px solid nth($paleta1, 1));
+}
+
+.section_estudioB {
+    @include border_estudios(0 0 5px 5px, 2px solid nth($paleta1, 1));
+}
+
+.container-infoEstudios {
+    background-color: nth($paleta1, 4);
+    font-family: $font_family2;
+    margin: 0.2rem;
+
+    h3 {
+        @include estilosBasicos(1.2rem, uppercase, 500, nth($paleta1, 2));
+        font-family: $font_family1;
+    }
+
+    h4 {
+        @include estilosBasicos(1.1rem, 500, uppercase, nth($paleta1, 3));
+        font-family: $font_family1;
+    }
+}
+
+#customButton1,
+#customButton2,
+#customButton3,
+#customButton4,
+#customButton5,
+#customButton6 {
+    @extend %customButton;
+}
+
+.custom_accordionBody {
+    background-color: #8b5648;
+    padding: 1rem 0.5rem;
+
+    ul,
+    p {
+        @include estilos_parrafo(300, none, nth($paleta1, 2));
+        font-family: $font_family2;
+    }
+}
+
+.custom_accordionBody {
+    h6 {
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+}
+
+.customH6 {
+    font-size: 1rem !important;
+}

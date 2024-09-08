@@ -1,0 +1,219 @@
+@media only screen and (min-width: 768px) {
+
+    /* Header */
+    .customNavlink:hover {
+        background-color: #0000;
+        border-bottom: 0.5px solid #965a4b;
+    }
+
+
+    /* Footer */
+    .imgFooter {
+        @include dimensiones(2.5rem, 2.5rem);
+    }
+
+    .copyFooter {
+        font-size: 1rem;
+        font-weight: 200;
+    }
+
+
+    /* Index */
+    .customMain-index {
+        width: 70%;
+        padding: 2rem 0;
+    }
+
+    .textoIndex h2 {
+        font-size: 3rem;
+    }
+
+
+    /* Historia */
+    .mainHistoria {
+        width: 90%;
+    }
+
+    .container-infoHistoria {
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .containerCarousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container_parrafoHistoria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    /* Estudios */
+    .mainEstudios {
+        padding: 1rem 8rem !important;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+    }
+
+    .container-infoEstudios {
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    #customButton1,
+    #customButton2,
+    #customButton3,
+    #customButton4,
+    #customButton5,
+    #customButton6 {
+        font-size: 1.2rem;
+    }
+
+    .custom_accordionBody {
+        h6 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .customH6 {
+        font-size: 1.1rem !important;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    /* Index */
+    .customMain-index {
+        width: 60%;
+    }
+
+    .textoIndex {
+        h2 {
+            font-size: 3.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    /* Historia */
+    .container-infoHistoria {
+        margin: 1rem;
+
+        p {
+            font-size: 1.3rem;
+        }
+    }
+
+    .sectionQuienes,
+    .sectionVanguardia {
+        border-radius: 5px;
+    }
+
+    .mainHistoria {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+    }
+
+    .container-infoHistoria {
+        img {
+            height: 25rem;
+            width: 40rem;
+        }
+    }
+
+    .borde_parrafoHistoria {
+        border-top: unset;
+    }
+
+    .container_parrafoHistoria {
+        border-left: 1px solid #67443b;
+        margin-bottom: 1rem;
+    }
+
+
+    /* Estudios */
+    .mainEstudios {
+        padding: 1rem 12rem !important;
+
+        h2 {
+            font-size: 2.2rem;
+        }
+    }
+
+    .container-infoEstudios {
+        h4 {
+            font-size: 1.4rem;
+        }
+    }
+
+    .custom_accordionBody {
+        h6 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .custom_accordionBody {
+
+        p,
+        ul {
+            font-size: 1.1rem;
+        }
+    }
+
+    .customH6 {
+        font-size: 1.3rem !important;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+    /* Index */
+    .customMain-index {
+        width: 50%;
+        padding: 2rem 6rem;
+    }
+
+    .textoIndex {
+        h2 {
+            font-size: 4rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+
+    /* Estudios */
+    .mainEstudios {
+        padding: 1rem 24rem !important;
+
+        h2 {
+            font-size: 2.4rem;
+        }
+    }
+}
