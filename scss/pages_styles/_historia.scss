@@ -18,9 +18,8 @@
     background-color: nth($paleta1, 4);
     font-family: $font_family2;
     margin: 0 0.2rem;
-}
+    border: $borde1;
 
-.container-infoHistoria {
     h3 {
         @include estilosBasicos(1.6rem, none, 500, nth($paleta1, 2));
         font-family: $font_family1;

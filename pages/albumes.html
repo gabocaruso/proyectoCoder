@@ -91,58 +91,116 @@
         </section>
     </header>
 
-    <!-- <main class="mainAlbumes">
-        <h2>Hecho en La Ventana</h2>
-        <p>Te presentamos algunas de las producciones notables que se han concebido en nuestros estudios. Estos
-            proyectos han sido grabados, mezclados y masterizados por nuestros ingenieros residentes, llevando el audio
-            mucho más allá de lo imaginado.</p>
-        <section>
-            <figure class="albumContainer">
-                <a href="https://open.spotify.com/intl-es/album/7GkZmrWiSAdDZvYwnF6SqV?si=6e94f5c80d0d4b3b"><img
-                        class="albumCover" src="../images/albumCovers/cover_superTerror.jpg"
-                        alt="Super Terror de El Mato A Un Policia Motorizado"></a>
-                <figcaption>Super Terror</figcaption>
-            </figure>
-            <figure class="albumContainer">
-                <a href="https://open.spotify.com/intl-es/album/0dm3jrhjmQgBMNZGtJsnr8?si=24e675794df84c87"><img
-                        class="albumCover" src="../images/albumCovers/cover_isladeoro.jpg"
-                        alt="Isla De Oro de Mi Amigo Invencible"></a>
-                <figcaption>Isla De Oro</figcaption>
-            </figure>
-            <figure class="albumContainer">
-                <a href="https://open.spotify.com/intl-es/album/633jS6fM44Zbr1gyI0eF19?si=23deea8a22b14591"><img
-                        class="albumCover" src="../images/albumCovers/cover_porCesarea.jpg"
-                        alt="Por Cesárea de Dillom"></a>
-                <figcaption>Por Cesárea</figcaption>
-            </figure>
-            <figure class="albumContainer">
-                <a href="https://open.spotify.com/intl-es/album/4B2sJdUM5lyuiGv7KYi8It?si=kFwC_s4UTDmAT5Q43-i7Ow"><img
-                        class="albumCover" src="../images/albumCovers/cover_nafta2.jpg" alt="NAFTA II de Nafta"></a>
-                <figcaption>NAFTA II</figcaption>
-            </figure>
-            <figure class="albumContainer">
-                <a href="https://open.spotify.com/intl-es/album/0pWzIntouGCOZzQsSW6xYc?si=ed78369930214cb1"><img
-                        class="albumCover" src="../images/albumCovers/cover_alma.jpg" alt="AlMA de Nicki Nicole"></a>
-                <figcaption>ALMA</figcaption>
-            </figure>
-            <figure class="albumContainer">
-                <a href="https://open.spotify.com/intl-es/album/4VdWh8m5cYm3XI6dhayGIg?si=5iV5VsJ-TXi8GnCgJqyKzA"><img
-                        class="albumCover" src="../images/albumCovers/cover_fito.jpg" alt="EADDA9223 de Fito Páez"></a>
-                <figcaption>EADDA9223</figcaption>
-            </figure>
-            <figure class="albumContainer">
-                <a href="https://open.spotify.com/intl-es/album/7FYLw9fTOiYnJFbFk2Mntn?si=65bee7a27fbc4d99"><img
-                        class="albumCover" src="../images/albumCovers/cover_infame.jpg" alt="Infame de Babasónicos"></a>
-                <figcaption>Infame</figcaption>
-            </figure>
-            <figure class="albumContainer">
-                <a href="https://open.spotify.com/intl-es/album/13qumC7VJfdUxcCEJjKhfE?si=e1bfa279058c4ef7"><img
-                        class="albumCover" src="../images/albumCovers/cover_Portraits.jpg"
-                        alt="Portraits de Gabriel Caruso"></a>
-                <figcaption>Portraits</figcaption>
-            </figure>
-        </section>
-    </main> -->
+    <main class="mainAlbumes container-fluid">
+        <h2 class="col-12 text-center mt-3 mb-2">Hecho En La Ventana</h2>
+        <div class="container-infoAlbumes p-3 mt-2 mb-3">
+            <section class="infoAlbumes row">
+                <p class="col-12">Te presentamos algunas de las producciones notables que se han concebido en
+                    nuestros estudios.
+                </p>
+                <p class="col-12">
+                    Estos
+                    proyectos han sido grabados, mezclados y masterizados por nuestros ingenieros residentes, llevando
+                    el
+                    audio
+                    mucho más allá de lo imaginado.
+                </p>
+            </section>
+
+            <!-- Carousel De Albumes -->
+
+            <section class="carouselAlbumes row">
+                <div class="containerCarousel col-12">
+                    <section id="carouselAlbumes" class="carousel slide">
+                        <article class="carousel-inner">
+                            <figure class="figure carousel-item active">
+                                <a
+                                    href="https://open.spotify.com/intl-es/album/0dm3jrhjmQgBMNZGtJsnr8?si=24e675794df84c87">
+                                    <img src="../images/albumCovers/cover_isladeoro.jpg"
+                                        class="customThumbnail figure-img img-fluid rounded img-thumbnail"
+                                        alt="Isla De Oro de Mi Amigo Invencible">
+                                </a>
+                                <figcaption class="customCaption figure-caption text-center">Isla De Oro</figcaption>
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <a
+                                    href="https://open.spotify.com/intl-es/album/633jS6fM44Zbr1gyI0eF19?si=23deea8a22b14591">
+                                    <img src="../images/albumCovers/cover_porCesarea.jpg"
+                                        class="customThumbnail figure-img img-fluid rounded img-thumbnail"
+                                        alt="Por Cesárea de Dillom">
+                                </a>
+                                <figcaption class="customCaption figure-caption text-center">Por Cesárea</figcaption>
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <a
+                                    href="https://open.spotify.com/intl-es/album/4B2sJdUM5lyuiGv7KYi8It?si=kFwC_s4UTDmAT5Q43-i7Ow">
+                                    <img src="../images/albumCovers/cover_nafta2.jpg"
+                                        class="customThumbnail figure-img img-fluid rounded img-thumbnail"
+                                        alt="NAFTA II de Nafta">
+                                </a>
+                                <figcaption class="customCaption figure-caption text-center">NAFTA II</figcaption>
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <a
+                                    href="https://open.spotify.com/intl-es/album/4VdWh8m5cYm3XI6dhayGIg?si=5iV5VsJ-TXi8GnCgJqyKzA">
+                                    <img src="../images/albumCovers/cover_fito.jpg"
+                                        class="customThumbnail figure-img img-fluid rounded img-thumbnail"
+                                        alt="EADDA9223 de Fito Páez">
+                                </a>
+                                <figcaption class="customCaption figure-caption text-center">EADDA9223</figcaption>
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <a
+                                    href="https://open.spotify.com/intl-es/album/7GkZmrWiSAdDZvYwnF6SqV?si=6e94f5c80d0d4b3b">
+                                    <img src="../images/albumCovers/cover_superTerror.jpg"
+                                        class="customThumbnail figure-img img-fluid rounded img-thumbnail"
+                                        alt="Super Terror de El Mató A Un Policía Motorizado">
+                                </a>
+                                <figcaption class="customCaption figure-caption text-center">Super Terror</figcaption>
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <a
+                                    href="https://open.spotify.com/intl-es/album/7FYLw9fTOiYnJFbFk2Mntn?si=65bee7a27fbc4d99">
+                                    <img src="../images/albumCovers/cover_infame.jpg"
+                                        class="customThumbnail figure-img img-fluid rounded img-thumbnail"
+                                        alt="Infame de Babasónicos">
+                                </a>
+                                <figcaption class="customCaption figure-caption text-center">Infame</figcaption>
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <a
+                                    href="https://open.spotify.com/intl-es/album/0pWzIntouGCOZzQsSW6xYc?si=ed78369930214cb1">
+                                    <img src="../images/albumCovers/cover_alma.jpg"
+                                        class="customThumbnail figure-img img-fluid rounded img-thumbnail"
+                                        alt="ALMA de Nicki Nicole">
+                                </a>
+                                <figcaption class="customCaption figure-caption text-center">ALMA</figcaption>
+                            </figure>
+                            <figure class="figure carousel-item">
+                                <a
+                                    href="https://open.spotify.com/intl-es/album/13qumC7VJfdUxcCEJjKhfE?si=e1bfa279058c4ef7">
+                                    <img src="../images/albumCovers/cover_Portraits.jpg"
+                                        class="customThumbnail figure-img img-fluid rounded img-thumbnail"
+                                        alt="Portraits de Gabriel Caruso">
+                                </a>
+                                <figcaption class="customCaption figure-caption text-center">Portraits</figcaption>
+                            </figure>
+                        </article>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAlbumes"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAlbumes"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </main>
 
     <footer>
         <section class="customFooter container-fluid">
