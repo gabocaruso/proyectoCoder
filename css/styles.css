@@ -269,7 +269,7 @@ body {
   font-weight: 300;
   text-transform: none;
   color: #eee3dc;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
 }
 
@@ -281,12 +281,20 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.customThumbnail {
-  background-color: #eee3dc;
-  border: 1px solid #eee3dc;
-}
-
 /* Media Queries */
+@media only screen and (min-width: 576px) {
+  /*Albumes*/
+  .mainAlbumes h2 {
+    font-size: 2rem;
+  }
+  .container-infoAlbumes p {
+    font-size: 1.3rem;
+  }
+  .customThumbnail {
+    max-width: 400px;
+    max-height: 400px;
+  }
+}
 @media only screen and (min-width: 768px) {
   /* Header */
   .customNavlink:hover {
@@ -350,6 +358,24 @@ body {
   }
   .customH6 {
     font-size: 1.1rem !important;
+  }
+  /*Albumes*/
+  .mainAlbumes h2 {
+    font-size: 2.5rem;
+  }
+  .container-infoAlbumes p {
+    font-size: 1.5rem;
+    padding: 0 5.5rem;
+  }
+  .customThumbnail {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .customFigure {
+    transition: transform 0.2s;
+  }
+  .customFigure:hover {
+    transform: scale(1.08);
   }
 }
 @media only screen and (min-width: 992px) {
