@@ -234,6 +234,13 @@
     .customH6 {
         font-size: 1.3rem !important;
     }
+
+    /*Albumes*/
+
+    .customThumbnail {
+        max-width: 200px;
+        max-height: 200px;
+    }
 }
 
 
@@ -266,5 +273,23 @@
         h2 {
             font-size: 2.4rem;
         }
+    }
+
+    /* Albumes */
+
+    .mainAlbumes {
+        h2 {
+            padding-left: 10rem;
+        }
+    }
+
+    .container-infoAlbumes {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .section_gridAlbumes {
+        padding-left: 6rem !important;
+        padding-right: 6rem !important;
     }
 }
