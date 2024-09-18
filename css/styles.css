@@ -267,7 +267,7 @@ body {
 }
 .container-infoAlbumes p {
   font-weight: 300;
-  text-transform: none;
+  text-transform: unset;
   color: #eee3dc;
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
@@ -327,13 +327,13 @@ body {
   }
   .containerCarousel {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
   .container_parrafoHistoria {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
   }
   /* Estudios */
   .mainEstudios {
@@ -476,9 +476,12 @@ body {
     margin-left: 10rem;
     margin-right: 10rem;
   }
+  .container-infoAlbumes p {
+    font-size: 1.6rem;
+  }
   .section_gridAlbumes {
-    padding-left: 6rem !important;
-    padding-right: 6rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
   }
 }
 

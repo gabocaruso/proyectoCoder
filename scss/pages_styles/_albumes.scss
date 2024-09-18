@@ -14,7 +14,7 @@
     border: $borde1;
 
     p {
-        @include estilos_parrafo(300, none, nth($paleta1, 2));
+        @include estilos_parrafo(300, unset, nth($paleta1, 2));
         font-size: 1.2rem;
         font-family: $font_family2;
     }

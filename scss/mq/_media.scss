@@ -16,8 +16,7 @@
     }
 
     .customThumbnail {
-        max-width: 400px;
-        max-height: 400px;
+        @include thumbnailDimensions(400px, 400px);
     }
 }
 
@@ -64,15 +63,13 @@
     }
 
     .containerCarousel {
-        display: flex;
+        @include displayFlex(flex, center);
         align-items: center;
-        justify-content: center;
     }
 
     .container_parrafoHistoria {
-        display: flex;
+        @include displayFlex(flex, center);
         flex-direction: column;
-        justify-content: center;
     }
 
 
@@ -126,8 +123,7 @@
     }
 
     .customThumbnail {
-        max-width: 300px;
-        max-height: 300px;
+        @include thumbnailDimensions(300px, 300px);
     }
 
     .customFigure {
@@ -238,8 +234,7 @@
     /*Albumes*/
 
     .customThumbnail {
-        max-width: 200px;
-        max-height: 200px;
+        @include thumbnailDimensions(200px, 200px);
     }
 }
 
@@ -286,10 +281,14 @@
     .container-infoAlbumes {
         margin-left: 10rem;
         margin-right: 10rem;
+
+        p {
+            font-size: 1.6rem;
+        }
     }
 
     .section_gridAlbumes {
-        padding-left: 6rem !important;
-        padding-right: 6rem !important;
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
     }
 }

@@ -26,3 +26,18 @@
     border-radius: $estudios_radius;
     border: $estudios_border;
 }
+
+@mixin efectoBasico1 ($transform1, $transition1) {
+    transform: $transform1;
+    transition: $transition1;
+}
+
+@mixin thumbnailDimensions ($max-width, $max-height) {
+    max-width: $max-width;
+    max-height: $max-height;
+}
+
+@mixin displayFlex ($display, $justify) {
+    display: $display;
+    justify-content: $justify;
+}

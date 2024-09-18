@@ -8,14 +8,15 @@
     border-bottom: 1px solid nth($paleta1, 1);
 }
 
+
+
 .imgHeader {
     @include dimensiones(3rem, 3rem);
     border-radius: 50%;
     transition: transform 0.2s;
 
     &:hover {
-        transform: translateY(-2px);
-        transition: transform 0.2s;
+        @include efectoBasico1(translateY(-2px), transform 0.2s)
     }
 }
 
@@ -39,8 +40,7 @@
     transition: all 0.3s;
 
     &:hover {
-        transform: translateY(-2px);
-        transition: transform 0.3s;
+        @include efectoBasico1(translateY(-2px), transform 0.3s);
         color: nth($paleta1, 2);
         background-color: nth($paleta1, 1);
     }
